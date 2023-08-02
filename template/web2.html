@@ -341,7 +341,7 @@ footer div{
        
             <br><br>
             
-    <a href="zomato/"  style="padding-left: 200px;"  id="one" class="two">Order Now</a>
+    <a href="zomato.html"  style="padding-left: 200px;"  id="one" class="two">Order Now</a>
             
             
         </div>
@@ -392,6 +392,7 @@ footer div{
     <div id="contact">
         <form method="post" action="">
             {% csrf_token %}
+
             <label for="name" style="color:whitesmoke">Name:</label>
             <input type="text" id="name2" name="name2" placeholder="Enter your name" pattern="[a-zA-Z]{2,15}" required title="Enter valid name">
             <label for="email" style="color:whitesmoke">Email:</label>
@@ -416,5 +417,4 @@ footer div{
         });
     </script>
 </body>
-
 </html>
